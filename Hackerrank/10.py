@@ -1,0 +1,11 @@
+n = int(input())
+arr = list(map(int, input().split()))
+print(arr)
+
+arr = set(arr)
+print(type(arr))
+print(arr)
+res = sum(arr)
+print(res)
+res = res/len(arr)
+print(res)
