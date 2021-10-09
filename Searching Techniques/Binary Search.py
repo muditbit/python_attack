@@ -1,5 +1,8 @@
 ''' This is iterative binary search method 
 Time Complexity = O(logn)
+There is one constraint that is it uses sorted array thus time complexity also depends on 
+Sorting algorithm we use
+
 '''
 
 
@@ -40,6 +43,8 @@ x = int(input())
 
 # Function call
 result = binary_search(arr, x)
+print("After Sorting :",arr)
+
 
 if result != -1:
 	print("Here we got it at index", str(result))
