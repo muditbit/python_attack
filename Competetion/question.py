@@ -7,13 +7,14 @@ Output:- Find any element a[i] where a[i]==i
 This can be solved in 2 ways one is linear search and another is binary search with worst cases O(n) and O(logn) respectively'''
 
 def linear_method(arr,i,j):
-    while i<len(arr):
-        if arr[i]==i:
-            return i
+    count=0
+    while count<len(arr):
+        if arr[count]==count:
+            return count
             break
             
         else:
-            i += 1
+            count += 1
     return "Not Found"
         
 def binary_method(arr,i,j):
