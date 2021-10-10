@@ -39,4 +39,4 @@ else:
         print(arr[k+1],arr[k])
     else:
         
-        print(arr[k-2],arr[k])
+        print(arr[k-1],arr[k])
