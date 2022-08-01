@@ -5,7 +5,8 @@ Output:- Find any 2 element such that (a+b)==t
 
 '''This problem can be solved using Linear Search method in Time Complexity of O(n^2)
 Using Binary Search O(logn)
-Using Greedy approach we can solve it using O(n)
+Using Greedy approach we can solve it using O(n)3
+
 
 Here we are going to perform Greedy approach
 '''
